@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.1",
-	"FriendlyName": "Clipboard Functions",
+	"VersionName": "1.2",
+	"FriendlyName": "ClipboardFunctions",
 	"Description": "Adds clipboard functions to Unreal Engine Blueprint",
 	"Category": "Utilities",
 	"CreatedBy": "UntitledProjectX",
@@ -10,7 +10,7 @@
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "buymeacoffee.com/UntitledProjectX",
-	"EngineVersion": "5.4.0",
+	"EngineVersion": "5.5.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [
@@ -19,7 +19,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PreLoadingScreen",
 			"PlatformAllowList": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		}
 	]
