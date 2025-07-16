@@ -10,7 +10,7 @@
 
 void UClipboardFunctionsBPLibrary::CopyText(FString Text)
 {
-    // Copies text to clipboard
+    // Copies text to clipboard (platform-agnostic call)
     FPlatformApplicationMisc::ClipboardCopy(*Text);
 }
 
@@ -18,7 +18,7 @@ FString UClipboardFunctionsBPLibrary::PasteText()
 {
     FString LocalString;
 
-    // Pastes text from clipboard
+    // Pastes text from clipboard (platform-agnostic call)
     FPlatformApplicationMisc::ClipboardPaste(LocalString);
 
     return LocalString;
